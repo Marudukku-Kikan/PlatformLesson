@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
-using UnityEngine;
+using UnityEngine; 
 using UnityEngine.UIElements;
 using Cursor = UnityEngine.Cursor;
 
@@ -30,7 +30,7 @@ public class PlayerCamera : MonoBehaviour
         
         
         _mouseX = Input.GetAxis("Mouse X");
-        
+         
         
         
         Debug.Log(_mouseX);
